@@ -1,0 +1,3 @@
+defaults: [../base/classification.yaml]
+model:
+  backbone: convnext_tiny

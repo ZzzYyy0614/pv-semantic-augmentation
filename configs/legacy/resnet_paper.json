@@ -1,0 +1,4 @@
+{
+  "manifest": "data/real.csv", "output": "runs/resnet_paper",
+  "model": {"backbone": "resnet18", "variant": "paper", "fusion": true, "edge_prior": true}
+}

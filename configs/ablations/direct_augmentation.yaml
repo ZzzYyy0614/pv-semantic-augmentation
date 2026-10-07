@@ -1,0 +1,5 @@
+defaults: [../tasks/recognizer.yaml]
+semantic:
+  teacher: null
+experiment:
+  output: runs/ablations/direct_augmentation

@@ -1,0 +1,5 @@
+{
+  "manifest": "data/real.csv", "output": "runs/autoencoder",
+  "image_size": 256, "batch_size": 4, "lr": 0.0000045, "epochs": 200,
+  "first_stage_checkpoint": null
+}

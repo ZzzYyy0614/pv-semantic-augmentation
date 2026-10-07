@@ -1,0 +1,184 @@
+[
+  {
+    "origin": "pytorch-baseline/models/resnet.py",
+    "destination": "reference/classifier/models/resnet.py",
+    "source_sha256": "fd59fc01df15d21300aad4eb99948085d2397a4dc98fd595fe1862e3d2782cbc",
+    "output_sha256": "fd59fc01df15d21300aad4eb99948085d2397a4dc98fd595fe1862e3d2782cbc",
+    "change": "unchanged snapshot"
+  },
+  {
+    "origin": "pytorch-baseline/models/convnext.py",
+    "destination": "reference/classifier/models/convnext.py",
+    "source_sha256": "ef545045f4ad9df9890cb96fa9925a7f478ff51eff8ea72c6c6869b5f630cc6f",
+    "output_sha256": "ef545045f4ad9df9890cb96fa9925a7f478ff51eff8ea72c6c6869b5f630cc6f",
+    "change": "unchanged snapshot"
+  },
+  {
+    "origin": "pytorch-baseline/models/swinT_small.py",
+    "destination": "reference/classifier/models/swinT_small.py",
+    "source_sha256": "44a44658311501f1627bb799af8a8dfa8b376f957d3a0f287f96ecdd4c252890",
+    "output_sha256": "44a44658311501f1627bb799af8a8dfa8b376f957d3a0f287f96ecdd4c252890",
+    "change": "unchanged snapshot"
+  },
+  {
+    "origin": "pytorch-baseline/train.py",
+    "destination": "reference/classifier/train.py",
+    "source_sha256": "dad3f1ba7c8b11a7d102c6306deb0ffc8c4bfa358404bd746b75063ad01475c5",
+    "output_sha256": "dad3f1ba7c8b11a7d102c6306deb0ffc8c4bfa358404bd746b75063ad01475c5",
+    "change": "unchanged snapshot"
+  },
+  {
+    "origin": "pytorch-baseline/train_KD.py",
+    "destination": "reference/classifier/train_KD.py",
+    "source_sha256": "9661f0f5bb1c5721f8130b75e49b7076bb23e73b882a8866e3b6b69bdac116e0",
+    "output_sha256": "9661f0f5bb1c5721f8130b75e49b7076bb23e73b882a8866e3b6b69bdac116e0",
+    "change": "unchanged snapshot"
+  },
+  {
+    "origin": "pytorch-baseline/utils.py",
+    "destination": "reference/classifier/utils.py",
+    "source_sha256": "092e61b16e32a16cc44eaba87ed149055b00c0724214e7f61a36390e04ef1262",
+    "output_sha256": "092e61b16e32a16cc44eaba87ed149055b00c0724214e7f61a36390e04ef1262",
+    "change": "unchanged snapshot"
+  },
+  {
+    "origin": "pytorch-baseline/data/edge_sobel.py",
+    "destination": "reference/classifier/data/edge_sobel.py",
+    "source_sha256": "4731a9d3bc0cfeb8bc3a4d98734eed175d54516d151686f1fbe5b004441bac15",
+    "output_sha256": "4731a9d3bc0cfeb8bc3a4d98734eed175d54516d151686f1fbe5b004441bac15",
+    "change": "unchanged snapshot"
+  },
+  {
+    "origin": "pytorch-baseline/conf/global_settings.py",
+    "destination": "reference/classifier/conf/global_settings.py",
+    "source_sha256": "747610ea3d421ef861485020dfae094aeb604b0588adf590819c84d9711c9833",
+    "output_sha256": "747610ea3d421ef861485020dfae094aeb604b0588adf590819c84d9711c9833",
+    "change": "unchanged snapshot"
+  },
+  {
+    "origin": "pytorch-baseline/models/resnet.py",
+    "destination": "src/pvaug/models/recovered/resnet.py",
+    "source_sha256": "fd59fc01df15d21300aad4eb99948085d2397a4dc98fd595fe1862e3d2782cbc",
+    "output_sha256": "fd59fc01df15d21300aad4eb99948085d2397a4dc98fd595fe1862e3d2782cbc",
+    "change": "unchanged snapshot"
+  },
+  {
+    "origin": "pytorch-baseline/models/convnext.py",
+    "destination": "src/pvaug/models/recovered/convnext.py",
+    "source_sha256": "ef545045f4ad9df9890cb96fa9925a7f478ff51eff8ea72c6c6869b5f630cc6f",
+    "output_sha256": "ef545045f4ad9df9890cb96fa9925a7f478ff51eff8ea72c6c6869b5f630cc6f",
+    "change": "unchanged snapshot"
+  },
+  {
+    "origin": "latent-diffusion/ldm/models/diffusion/ddpm.py",
+    "destination": "reference/generator/ldm/models/diffusion/ddpm.py",
+    "source_sha256": "61849e13ad74534928d9601c4c8b74829a589ceab16209b0c694897fa1179663",
+    "output_sha256": "61849e13ad74534928d9601c4c8b74829a589ceab16209b0c694897fa1179663",
+    "change": "unchanged snapshot"
+  },
+  {
+    "origin": "latent-diffusion/ldm/models/autoencoder.py",
+    "destination": "reference/generator/ldm/models/autoencoder.py",
+    "source_sha256": "8c3908b22e7667eff971e1a0f0c96e326d2877f10fcab419acd641e74fc97342",
+    "output_sha256": "8c3908b22e7667eff971e1a0f0c96e326d2877f10fcab419acd641e74fc97342",
+    "change": "unchanged snapshot"
+  },
+  {
+    "origin": "latent-diffusion/ldm/data/juju_dataset.py",
+    "destination": "reference/generator/ldm/data/juju_dataset.py",
+    "source_sha256": "b6fa930f9c7ea88543534f5df421deeb1e555285aab6efc088c62d61e4caea6e",
+    "output_sha256": "b6fa930f9c7ea88543534f5df421deeb1e555285aab6efc088c62d61e4caea6e",
+    "change": "unchanged snapshot"
+  },
+  {
+    "origin": "latent-diffusion/configs/latent-diffusion/ju_multi_condition.yaml",
+    "destination": "reference/generator/configs/latent-diffusion/ju_multi_condition.yaml",
+    "source_sha256": "fee6ae5bf293ea907d85aa3dfd2189342e3d128917da522f05bf8a61f6e8d886",
+    "output_sha256": "fee6ae5bf293ea907d85aa3dfd2189342e3d128917da522f05bf8a61f6e8d886",
+    "change": "unchanged snapshot"
+  },
+  {
+    "origin": "latent-diffusion/configs/autoencoder/VQ_VAE.yaml",
+    "destination": "reference/generator/configs/autoencoder/VQ_VAE.yaml",
+    "source_sha256": "a5fa48f871abcb979acd0803b2904ec829a7761fabaab23b7dd4af77ce40ecde",
+    "output_sha256": "a5fa48f871abcb979acd0803b2904ec829a7761fabaab23b7dd4af77ce40ecde",
+    "change": "unchanged snapshot"
+  },
+  {
+    "origin": "latent-diffusion/ju_multicondition_generate.py",
+    "destination": "reference/generator/ju_multicondition_generate.py",
+    "source_sha256": "b2ac7c797f9c917a1281726fa40aa2d03cb474300e6900eaaae1fa47679c3a30",
+    "output_sha256": "b2ac7c797f9c917a1281726fa40aa2d03cb474300e6900eaaae1fa47679c3a30",
+    "change": "unchanged snapshot"
+  },
+  {
+    "origin": "latent-diffusion/environment.yaml",
+    "destination": "reference/generator/environment.yaml",
+    "source_sha256": "20ea8e14e381233c8b6edb32fe4d2187e97a86ecea685a636bcd6f3dd8708062",
+    "output_sha256": "20ea8e14e381233c8b6edb32fe4d2187e97a86ecea685a636bcd6f3dd8708062",
+    "change": "unchanged snapshot"
+  },
+  {
+    "origin": "latent-diffusion/requirement.txt",
+    "destination": "reference/generator/requirement.txt",
+    "source_sha256": "d5549bc359f30085df06d8279cfe8250895a7ac37dabfc7cdff1376f9a190877",
+    "output_sha256": "d5549bc359f30085df06d8279cfe8250895a7ac37dabfc7cdff1376f9a190877",
+    "change": "unchanged snapshot"
+  },
+  {
+    "origin": "latent-diffusion/LICENSE",
+    "destination": "reference/generator/LICENSE",
+    "source_sha256": "2ba3d36721ed0263cbc1050936ba34809d296fe629d802f7bc453007faefbdb3",
+    "output_sha256": "2ba3d36721ed0263cbc1050936ba34809d296fe629d802f7bc453007faefbdb3",
+    "change": "unchanged snapshot"
+  },
+  {
+    "origin": "latent-diffusion/ldm/modules/diffusionmodules/openaimodel.py",
+    "destination": "src/pvaug/vendor/ldm/modules/diffusionmodules/openaimodel.py",
+    "source_sha256": "92e0c23ada849f532be12d9be2ebcddd98d3b040aa366981ac5f06c96d53b6af",
+    "output_sha256": "c09d22942632f70d9ce69c3ff3dd09252ff19f0acf45aeb37603bb639d5347d3",
+    "change": "namespace imports"
+  },
+  {
+    "origin": "latent-diffusion/ldm/modules/diffusionmodules/util.py",
+    "destination": "src/pvaug/vendor/ldm/modules/diffusionmodules/util.py",
+    "source_sha256": "5dd19ed7536cc9095ab5d3ca4c09bde5283c0779207a1aa019c05565a2502dca",
+    "output_sha256": "f616905385762f45b2eac9fdf7023c706c4e1e81cdcba7725212fb19b72940fa",
+    "change": "namespace imports"
+  },
+  {
+    "origin": "latent-diffusion/ldm/modules/diffusionmodules/model.py",
+    "destination": "src/pvaug/vendor/ldm/modules/diffusionmodules/model.py",
+    "source_sha256": "043ff43c4d4304f7259419d1bd4529445da71661b5362653ecd174bd4342c413",
+    "output_sha256": "ab5a84dd2da57d3ba25b8cb5181755ab16250dc7e7e909758e28cc12d767b559",
+    "change": "namespace imports"
+  },
+  {
+    "origin": "latent-diffusion/ldm/modules/attention.py",
+    "destination": "src/pvaug/vendor/ldm/modules/attention.py",
+    "source_sha256": "012198f441427ef892da0b6efc5ea9fae8e414aefcc65504577b41c2afd3526e",
+    "output_sha256": "aa38183c97dc452d25492aa053f7ea569a1d4c6443f0ec1d0e553f67b69fef25",
+    "change": "namespace imports"
+  },
+  {
+    "origin": "latent-diffusion/ldm/util.py",
+    "destination": "src/pvaug/vendor/ldm/util.py",
+    "source_sha256": "5ed0d2cf71ecb6e8c2b8db0d275e11a9767d937bbcc745d754b36593d11eed05",
+    "output_sha256": "5ed0d2cf71ecb6e8c2b8db0d275e11a9767d937bbcc745d754b36593d11eed05",
+    "change": "namespace imports"
+  },
+  {
+    "origin": "taming-transformers/taming/modules/vqvae/quantize.py",
+    "destination": "src/pvaug/vendor/quantize.py",
+    "source_sha256": "9959e933ad30fbab17d2a696e330edbc48d8d839abcc3fc5f46ff03f4853e059",
+    "output_sha256": "9959e933ad30fbab17d2a696e330edbc48d8d839abcc3fc5f46ff03f4853e059",
+    "change": "unchanged snapshot"
+  },
+  {
+    "origin": "latent-diffusion/LICENSE",
+    "destination": "third_party/CompVis-LDM-LICENSE",
+    "source_sha256": "2ba3d36721ed0263cbc1050936ba34809d296fe629d802f7bc453007faefbdb3",
+    "output_sha256": "2ba3d36721ed0263cbc1050936ba34809d296fe629d802f7bc453007faefbdb3",
+    "change": "unchanged snapshot"
+  }
+]

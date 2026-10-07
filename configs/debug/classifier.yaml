@@ -1,0 +1,13 @@
+defaults: [../base/classification.yaml]
+data:
+  manifest: data/demo/real.csv
+  image_size: 32
+trainer:
+  epochs: 2
+  batch_size: 2
+  max_steps: 2
+  device: cpu
+  engine:
+    clip_grad_norm: 1.0
+experiment:
+  output: runs/debug/classifier

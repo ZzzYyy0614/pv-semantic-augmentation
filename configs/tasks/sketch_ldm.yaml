@@ -1,0 +1,3 @@
+defaults: [../base/diffusion.yaml]
+experiment:
+  output: runs/sketch_ldm

@@ -1,0 +1,6 @@
+schema_version: 1
+base: ../base/classification.yaml
+output: runs/sweeps/fusion
+parameters:
+  model.fusion_kind: [gated, additive, concat]
+  experiment.seed: [42, 43, 44]

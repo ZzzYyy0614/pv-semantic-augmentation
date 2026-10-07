@@ -1,0 +1,8 @@
+defaults: [../base/diffusion.yaml]
+model:
+  conditioning:
+    cross_attention: false
+  diffusion:
+    loss_type: l1
+experiment:
+  output: runs/recovered_generator

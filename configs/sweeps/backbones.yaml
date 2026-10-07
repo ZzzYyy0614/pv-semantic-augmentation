@@ -1,0 +1,6 @@
+schema_version: 1
+base: ../base/classification.yaml
+output: runs/sweeps/backbones
+parameters:
+  model.backbone: [resnet18, convnext_tiny, swin_t]
+  experiment.seed: [42, 43, 44]

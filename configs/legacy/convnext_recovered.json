@@ -1,0 +1,4 @@
+{
+  "manifest": "data/real.csv", "output": "runs/convnext_recovered",
+  "model": {"backbone": "convnext_tiny", "variant": "recovered", "fusion": true, "edge_prior": true}
+}

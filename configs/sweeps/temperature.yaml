@@ -1,0 +1,6 @@
+schema_version: 1
+base: ../tasks/recognizer.yaml
+output: runs/sweeps/temperature
+parameters:
+  semantic.temperature: [1, 5, 10, 15, 20, 25]
+  experiment.seed: [42, 43, 44]

@@ -1,0 +1,6 @@
+defaults: [../base/classification.yaml]
+model:
+  edge_prior: false
+  fusion: false
+experiment:
+  output: runs/ablations/rgb_baseline

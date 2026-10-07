@@ -1,0 +1,33 @@
+schema_version: 1
+name: cpu-method-check
+output: runs/debug/pipeline
+stages:
+  - id: estimator
+    kind: classification
+    config: classifier.yaml
+  - id: generator
+    kind: diffusion
+    config: diffusion.yaml
+  - id: synthetic
+    kind: sampling
+    inputs:
+      checkpoint: '@generator.checkpoint'
+      sketches: data/demo/sketches.csv
+    options:
+      per_class: 2
+      steps: 2
+      device: cpu
+  - id: recognizer
+    kind: classification
+    config: classifier.yaml
+    inputs:
+      teacher: '@estimator.checkpoint'
+      generated_manifest: '@synthetic.manifest'
+  - id: evaluation
+    kind: evaluation
+    inputs:
+      checkpoint: '@recognizer.checkpoint'
+      manifest: data/demo/real.csv
+    options:
+      device: cpu
+      batch_size: 2

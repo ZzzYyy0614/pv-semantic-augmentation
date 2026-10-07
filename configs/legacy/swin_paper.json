@@ -1,0 +1,4 @@
+{
+  "manifest": "data/real.csv", "output": "runs/swin_paper",
+  "model": {"backbone": "swin_t", "variant": "paper", "fusion": true, "edge_prior": true}
+}

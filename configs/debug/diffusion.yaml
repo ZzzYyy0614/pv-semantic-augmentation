@@ -1,0 +1,28 @@
+defaults: [../base/diffusion.yaml]
+data:
+  manifest: data/demo/real.csv
+  image_size: 32
+model:
+  first_stage:
+    first_stage_checkpoint: null
+    smoke_random_first_stage: true
+    first_stage_channels: 32
+    first_stage_mult: [1, 2]
+    first_stage_res_blocks: 1
+  denoiser:
+    model_channels: 32
+    channel_mult: [1, 2]
+    num_res_blocks: 1
+    num_heads: 4
+    attention_resolutions: [1, 2]
+  conditioning:
+    cross_attention_dim: 32
+  diffusion:
+    timesteps: 10
+trainer:
+  epochs: 2
+  batch_size: 2
+  max_steps: 2
+  device: cpu
+experiment:
+  output: runs/debug/diffusion

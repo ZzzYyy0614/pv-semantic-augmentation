@@ -1,0 +1,5 @@
+defaults: [../base/classification.yaml]
+model:
+  fusion_kind: additive
+experiment:
+  output: runs/ablations/additive_fusion

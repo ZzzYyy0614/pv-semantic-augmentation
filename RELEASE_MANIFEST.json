@@ -1,0 +1,717 @@
+[
+  {
+    "path": ".github/workflows/tests.yml",
+    "sha256": "ec13906695064442788f7187167d7295611b1d572b5287c0d2b88b6057b8f310",
+    "bytes": 804
+  },
+  {
+    "path": ".gitignore",
+    "sha256": "fb9c4c85116e93ed9887a57658f46449b3822061b1f21e97a1cf2d187c828d8f",
+    "bytes": 157
+  },
+  {
+    "path": "assets/framework.png",
+    "sha256": "1a2b9685eb528e0a0ce7461a520d84852c74616fd53cf64338ab30e87c81968a",
+    "bytes": 138674
+  },
+  {
+    "path": "assets/framework.svg",
+    "sha256": "cbb8eda3239addb8cc050751c8865fb1e721cf8b50501a9579075d70f17c1702",
+    "bytes": 5529
+  },
+  {
+    "path": "CHANGELOG.md",
+    "sha256": "ba6c6ffd4397de1335969c251b1a71ec3c978d027267b1282f8afafc2a3f6783",
+    "bytes": 954
+  },
+  {
+    "path": "CITATION.cff",
+    "sha256": "f89d24e0cb2c6a288a401421debb85db17cf381479d2142fe33bbb8136aea744",
+    "bytes": 857
+  },
+  {
+    "path": "configs/ablations/additive_fusion.yaml",
+    "sha256": "3157995d7957d1f167c42cdf7526ef4080ba862627c497db4377fbe140ef2d02",
+    "bytes": 124
+  },
+  {
+    "path": "configs/ablations/direct_augmentation.yaml",
+    "sha256": "fe457c782f7aa716ec732902e86847aba6a2a09c68f5dc715bdad34213d530cf",
+    "bytes": 120
+  },
+  {
+    "path": "configs/ablations/rgb_baseline.yaml",
+    "sha256": "b0976c948f300fe35c60dffe1ac8083a3f19bfbe14ea6df09d0a9d1d87294bff",
+    "bytes": 133
+  },
+  {
+    "path": "configs/base/classification.yaml",
+    "sha256": "a649153db55f72b3d5b7e95837009a73dc202c6b5fd031e6695cfdbe282b8cc5",
+    "bytes": 877
+  },
+  {
+    "path": "configs/base/diffusion.yaml",
+    "sha256": "047fabc02ad129153cdccb329d53e9fab529b63d99df597f945426e00f224652",
+    "bytes": 1161
+  },
+  {
+    "path": "configs/compatibility/classifier.yaml",
+    "sha256": "ea73331005515cee71b56dd15f0ece0cef15ba95396573449f502d84e438cda3",
+    "bytes": 116
+  },
+  {
+    "path": "configs/compatibility/generator.yaml",
+    "sha256": "5f6861f3096e24ef5612294c58c0be07f6e6a6e37efd38aa73a089dcd0c1f79e",
+    "bytes": 163
+  },
+  {
+    "path": "configs/data/classes.json",
+    "sha256": "db5ed893817c8d4ab98944a0fe5c4cc3b56647dd616c1bd6329e78df4568d820",
+    "bytes": 74
+  },
+  {
+    "path": "configs/data/generator_classes.json",
+    "sha256": "75994f7cbf89e5eccbed0f2b54ced818ab8d0dc615468df5a05b2b4a4fcd26a7",
+    "bytes": 59
+  },
+  {
+    "path": "configs/data/path_map.example.json",
+    "sha256": "80500467d91e99e00b1e7a32f2e6129f1efcb370a74e81383fc879902a56a03a",
+    "bytes": 43
+  },
+  {
+    "path": "configs/debug/classifier.yaml",
+    "sha256": "db81a9fdc6fce9807e0be456a07bf1d690fd5813086e9a9309bbc8f5abaefcd7",
+    "bytes": 238
+  },
+  {
+    "path": "configs/debug/diffusion.yaml",
+    "sha256": "40b7e5995e03707d08c7dca2ebdbaee3b0ad0a99b0e632130e0a961531bcb08a",
+    "bytes": 584
+  },
+  {
+    "path": "configs/debug/pipeline.yaml",
+    "sha256": "c37f56d5672bdb83aa8b874453d8cf7b574b1a3d323231fd35ecdac0b8b39f28",
+    "bytes": 760
+  },
+  {
+    "path": "configs/legacy/autoencoder.json",
+    "sha256": "bfdb00c185c9acfce87b36fd30a3896ef3345665f9768b3e90beeb078571c0ea",
+    "bytes": 168
+  },
+  {
+    "path": "configs/legacy/baseline.json",
+    "sha256": "f7316831b873bdcf632bfd8468d1ea02123111979f9b3ce76e3dca1357164d39",
+    "bytes": 248
+  },
+  {
+    "path": "configs/legacy/convnext_paper.json",
+    "sha256": "257012cd59b1aa668bb38e941e64f73b8d078d0a453fa465deabdea0a55b890a",
+    "bytes": 165
+  },
+  {
+    "path": "configs/legacy/convnext_recovered.json",
+    "sha256": "fa64f77d44bc71c9909325b10c128ef8a6b365cebd9449b3f93be3f980f39e8c",
+    "bytes": 173
+  },
+  {
+    "path": "configs/legacy/ldm_backup.json",
+    "sha256": "25671f148a6a6254fae1ac424c28992a89d6f4d47448b0dc010aa6d800998f37",
+    "bytes": 427
+  },
+  {
+    "path": "configs/legacy/ldm_paper.json",
+    "sha256": "1598d149476fdda3be71cc74086c413bf7a83fce6a6b03f6761ba4dff5540760",
+    "bytes": 354
+  },
+  {
+    "path": "configs/legacy/resnet_paper.json",
+    "sha256": "3f17903629a694d9352c07607540a9e9715380042948a3f7cc9864cfba9d005e",
+    "bytes": 158
+  },
+  {
+    "path": "configs/legacy/semantic.json",
+    "sha256": "c21348b5a0400ccf473eea8220eec91ed73e9c5440d03c51a25d6e7f9fca8079",
+    "bytes": 422
+  },
+  {
+    "path": "configs/legacy/swin_paper.json",
+    "sha256": "ad67a9e1f21985c7862e7ea6e1e59a557bc66f9b5c2adc1b353380736d8beb3e",
+    "bytes": 154
+  },
+  {
+    "path": "configs/legacy/teacher.json",
+    "sha256": "9c31c15c3aa8e81af7265030302b7a43a110cc575e56d2dd86f9e6699cb47e14",
+    "bytes": 245
+  },
+  {
+    "path": "configs/models/convnext.yaml",
+    "sha256": "3c8612e48197eb3e3d41ea8d4f3fe0a21b12db83f76f5bfb4ac1ad4f09d04cc1",
+    "bytes": 73
+  },
+  {
+    "path": "configs/models/swin.yaml",
+    "sha256": "49ea226b839bfd981efc16c708262681ccae20ff28920b78deb2edfc30768e36",
+    "bytes": 66
+  },
+  {
+    "path": "configs/pipelines/paper.yaml",
+    "sha256": "9e88d9825fd4a59a8fe0f315d72daadef53b678a06c9d9b71eed6edecaad7e08",
+    "bytes": 823
+  },
+  {
+    "path": "configs/sweeps/backbones.yaml",
+    "sha256": "77da6fb8fe1621d97ecf44f4712bfd51c82e56a0bde49607d146fc4e9f94b685",
+    "bytes": 178
+  },
+  {
+    "path": "configs/sweeps/fusion.yaml",
+    "sha256": "d466de4369f4b6afa74a08714c56afa9a4c3aaa3d3dd00debd6dc04a49b518bb",
+    "bytes": 170
+  },
+  {
+    "path": "configs/sweeps/temperature.yaml",
+    "sha256": "082c98c4226a765e6b2edcbfa283833c2509bdf28db0c5aff6c5be88c93a21c0",
+    "bytes": 172
+  },
+  {
+    "path": "configs/tasks/autoencoder.yaml",
+    "sha256": "a18cbf9717166acfc73c79b3e8b004acbc1957097b24a98eb3d151d2f6cc1239",
+    "bytes": 171
+  },
+  {
+    "path": "configs/tasks/estimator.yaml",
+    "sha256": "5a5602a86d5674852a33dcdb3ed4f8445c21f358e3760ef9e2cc095156e5c3a8",
+    "bytes": 77
+  },
+  {
+    "path": "configs/tasks/recognizer.yaml",
+    "sha256": "e582e8bb5fb30c9025194b2c787f3676e6614d238eaf9eab78d0cc66602a85b7",
+    "bytes": 191
+  },
+  {
+    "path": "configs/tasks/sketch_ldm.yaml",
+    "sha256": "293d5b997751af7071a2c4b4839814b7090bae3255a1c738cafd1d3610462188",
+    "bytes": 73
+  },
+  {
+    "path": "CONTRIBUTING.md",
+    "sha256": "00e7e8474c1539377a16755f594362a00a70efa94b3661bdf39fc3e057a1fe27",
+    "bytes": 1182
+  },
+  {
+    "path": "docs/architecture.md",
+    "sha256": "2b7aea982b343d9696e7b4a717292c97538f0cf5c4a6a85a246e53fa800f548a",
+    "bytes": 8397
+  },
+  {
+    "path": "docs/experiments.md",
+    "sha256": "86860608193219c1fcc22d16b65ddd179683ebd1dc05b6a2ff2a69c8d44a7ab3",
+    "bytes": 6039
+  },
+  {
+    "path": "docs/github_upload.md",
+    "sha256": "0b1b1901dfbdd92de5eadc8cb3f0a4a3f1b3be872ec45397d8636930a3fe190c",
+    "bytes": 3316
+  },
+  {
+    "path": "docs/README_zh.md",
+    "sha256": "13c47dd0bdb0a05c0614e5a4876410d179a602e9f8015f4eb6094b4c767e7aa1",
+    "bytes": 5730
+  },
+  {
+    "path": "docs/reproduction.md",
+    "sha256": "2c8eb9aa3c61ecab8d06a22c5034d69572eaafcd326f66814dd2d605e172e92d",
+    "bytes": 10980
+  },
+  {
+    "path": "docs/source_inventory.json",
+    "sha256": "8155eef0c2e5bed1301244754449439664197cd677f381112424fb7b34e08227",
+    "bytes": 9098
+  },
+  {
+    "path": "docs/verification.md",
+    "sha256": "e94d19f4a6bcb3445c7d34856a05bbae7eb1108311685457381674142998e5f7",
+    "bytes": 6230
+  },
+  {
+    "path": "LICENSE",
+    "sha256": "3c797a10c24dfe34f8efeaea731274b31fc88931c4315d4fb623b36df7c19b3c",
+    "bytes": 1242
+  },
+  {
+    "path": "pyproject.toml",
+    "sha256": "881b68021ec82ecea4c586e8b0171b6f91f232e323ea3826693ebb6bea77a8c1",
+    "bytes": 1017
+  },
+  {
+    "path": "README.md",
+    "sha256": "b75a2f2da97b626c47d7db04ca48f3eaadd04bdb848baa328fc1ed4a1e219ace",
+    "bytes": 7390
+  },
+  {
+    "path": "reference/classifier/conf/global_settings.py",
+    "sha256": "747610ea3d421ef861485020dfae094aeb604b0588adf590819c84d9711c9833",
+    "bytes": 951
+  },
+  {
+    "path": "reference/classifier/data/edge_sobel.py",
+    "sha256": "4731a9d3bc0cfeb8bc3a4d98734eed175d54516d151686f1fbe5b004441bac15",
+    "bytes": 1784
+  },
+  {
+    "path": "reference/classifier/models/convnext.py",
+    "sha256": "ef545045f4ad9df9890cb96fa9925a7f478ff51eff8ea72c6c6869b5f630cc6f",
+    "bytes": 10401
+  },
+  {
+    "path": "reference/classifier/models/resnet.py",
+    "sha256": "fd59fc01df15d21300aad4eb99948085d2397a4dc98fd595fe1862e3d2782cbc",
+    "bytes": 19530
+  },
+  {
+    "path": "reference/classifier/models/swinT_small.py",
+    "sha256": "44a44658311501f1627bb799af8a8dfa8b376f957d3a0f287f96ecdd4c252890",
+    "bytes": 16285
+  },
+  {
+    "path": "reference/classifier/train.py",
+    "sha256": "dad3f1ba7c8b11a7d102c6306deb0ffc8c4bfa358404bd746b75063ad01475c5",
+    "bytes": 13013
+  },
+  {
+    "path": "reference/classifier/train_KD.py",
+    "sha256": "9661f0f5bb1c5721f8130b75e49b7076bb23e73b882a8866e3b6b69bdac116e0",
+    "bytes": 18020
+  },
+  {
+    "path": "reference/classifier/utils.py",
+    "sha256": "092e61b16e32a16cc44eaba87ed149055b00c0724214e7f61a36390e04ef1262",
+    "bytes": 26831
+  },
+  {
+    "path": "reference/generator/configs/autoencoder/VQ_VAE.yaml",
+    "sha256": "a5fa48f871abcb979acd0803b2904ec829a7761fabaab23b7dd4af77ce40ecde",
+    "bytes": 1294
+  },
+  {
+    "path": "reference/generator/configs/latent-diffusion/ju_multi_condition.yaml",
+    "sha256": "fee6ae5bf293ea907d85aa3dfd2189342e3d128917da522f05bf8a61f6e8d886",
+    "bytes": 2515
+  },
+  {
+    "path": "reference/generator/environment.yaml",
+    "sha256": "20ea8e14e381233c8b6edb32fe4d2187e97a86ecea685a636bcd6f3dd8708062",
+    "bytes": 644
+  },
+  {
+    "path": "reference/generator/ju_multicondition_generate.py",
+    "sha256": "b2ac7c797f9c917a1281726fa40aa2d03cb474300e6900eaaae1fa47679c3a30",
+    "bytes": 4885
+  },
+  {
+    "path": "reference/generator/ldm/data/juju_dataset.py",
+    "sha256": "b6fa930f9c7ea88543534f5df421deeb1e555285aab6efc088c62d61e4caea6e",
+    "bytes": 4587
+  },
+  {
+    "path": "reference/generator/ldm/models/autoencoder.py",
+    "sha256": "8c3908b22e7667eff971e1a0f0c96e326d2877f10fcab419acd641e74fc97342",
+    "bytes": 17993
+  },
+  {
+    "path": "reference/generator/ldm/models/diffusion/ddpm.py",
+    "sha256": "61849e13ad74534928d9601c4c8b74829a589ceab16209b0c694897fa1179663",
+    "bytes": 81532
+  },
+  {
+    "path": "reference/generator/LICENSE",
+    "sha256": "2ba3d36721ed0263cbc1050936ba34809d296fe629d802f7bc453007faefbdb3",
+    "bytes": 1102
+  },
+  {
+    "path": "reference/generator/requirement.txt",
+    "sha256": "d5549bc359f30085df06d8279cfe8250895a7ac37dabfc7cdff1376f9a190877",
+    "bytes": 434
+  },
+  {
+    "path": "scripts/import_sources.py",
+    "sha256": "b569b1164369120759d127011242e645205c16c112b592c6274a604410453e32",
+    "bytes": 3205
+  },
+  {
+    "path": "scripts/package_release.py",
+    "sha256": "0540f435baf4f47c9636a212f68471a53d5c28c53baf8b6189e0e94e9d46dc0e",
+    "bytes": 2722
+  },
+  {
+    "path": "scripts/render_assets.cjs",
+    "sha256": "686dfc4719d47b8b32167778b50b438cc89cc6b8deae54dae65564920e6ecc53",
+    "bytes": 588
+  },
+  {
+    "path": "src/pvaug/__init__.py",
+    "sha256": "32ea0ad9b7ea2fae9be189b7cf9211bf342861cf4d014c91b316e10450b19371",
+    "bytes": 109
+  },
+  {
+    "path": "src/pvaug/__main__.py",
+    "sha256": "3129adff95e0f38b87ab34cddfc27082c7892bcaec267ff5d40f160fdf55b44a",
+    "bytes": 61
+  },
+  {
+    "path": "src/pvaug/_licenses/CompVis-LDM-LICENSE",
+    "sha256": "2ba3d36721ed0263cbc1050936ba34809d296fe629d802f7bc453007faefbdb3",
+    "bytes": 1102
+  },
+  {
+    "path": "src/pvaug/_licenses/NOTICE.md",
+    "sha256": "fbb807032a1255fd143bea9641031fa971a9cf9ca8c05ab99fdb9d99b649cb9f",
+    "bytes": 1742
+  },
+  {
+    "path": "src/pvaug/_licenses/Taming-Transformers-LICENSE",
+    "sha256": "f6216cce912c447025b8aacfa9ac09634c43815cd8d87762528300e5ddf6b959",
+    "bytes": 1093
+  },
+  {
+    "path": "src/pvaug/cli.py",
+    "sha256": "495a5630997066185978afa57ecee6e3b0be472c716b759633cac11d69a3356c",
+    "bytes": 6592
+  },
+  {
+    "path": "src/pvaug/config.py",
+    "sha256": "6ea0a142c9e816781ed95e6f4005a6ac071ea50f262cdd42396a1ef335fa7c63",
+    "bytes": 7836
+  },
+  {
+    "path": "src/pvaug/configuration/__init__.py",
+    "sha256": "56fb948e79a77e5368f631d6db304380d87cf9a603378a8120f9d2a8926dad59",
+    "bytes": 157
+  },
+  {
+    "path": "src/pvaug/configuration/loader.py",
+    "sha256": "bbfc80049a2f6019ec8f3fdd60aef5b1ece936991aee806c9f1d6c5a896b4d49",
+    "bytes": 6727
+  },
+  {
+    "path": "src/pvaug/data/__init__.py",
+    "sha256": "2f94bff23bf3ab4ff20d44e201415508e76f9657fb65adf268b806852a315068",
+    "bytes": 587
+  },
+  {
+    "path": "src/pvaug/data/audit.py",
+    "sha256": "a423b7b355942372fe853ea2954a83643d46ba8926192fc122891dd18bb717af",
+    "bytes": 2036
+  },
+  {
+    "path": "src/pvaug/data/dataset.py",
+    "sha256": "6c4e8d3a6c8ca702689489860ed9c8bfe6d190888dca2a5ced3dff1c2db5faef",
+    "bytes": 2911
+  },
+  {
+    "path": "src/pvaug/data/importers.py",
+    "sha256": "412bd4b2fd07e6924dac854e234533e1000a19b17f730a040136c2f4bb98bc43",
+    "bytes": 5663
+  },
+  {
+    "path": "src/pvaug/data/loader.py",
+    "sha256": "e7abaf86183a7d313900efb837b7d1919800e44a14fd9b3dda02cbb41e0e3c66",
+    "bytes": 806
+  },
+  {
+    "path": "src/pvaug/data/manifest.py",
+    "sha256": "aa59d2f7aed5dfceb54236fedb6c093fd18358d6ad3d7c3f19d969fbfd7f6486",
+    "bytes": 2867
+  },
+  {
+    "path": "src/pvaug/data/sampling.py",
+    "sha256": "eed860271137e58629aa7639b7ae9c4bce5b9f0283c7ef93477f11ffed8dc9e1",
+    "bytes": 571
+  },
+  {
+    "path": "src/pvaug/demo.py",
+    "sha256": "6b8f43f70cf2288bf47bf45181f7e1ea74800c70d2073e77e9f56e8c3f05d6a0",
+    "bytes": 7322
+  },
+  {
+    "path": "src/pvaug/engine/__init__.py",
+    "sha256": "f21277ac3cb223db545a8f78ba62a630ea5fcd7b9e8aed32be17b93d47c538a9",
+    "bytes": 162
+  },
+  {
+    "path": "src/pvaug/engine/callbacks.py",
+    "sha256": "e9a6b32786bca91dc8875a535f7ebbc71ce6c9006616e9da7e60ef9620c24ef1",
+    "bytes": 1472
+  },
+  {
+    "path": "src/pvaug/engine/contracts.py",
+    "sha256": "4dfcea7eb2d011330e694bca706a5d66e4b3f349918fb715df2c6aea85ec7649",
+    "bytes": 1441
+  },
+  {
+    "path": "src/pvaug/engine/optim.py",
+    "sha256": "40adcf2da721168283941791d1f82af15f5b20f747f8a850d573439d1c6be5f9",
+    "bytes": 784
+  },
+  {
+    "path": "src/pvaug/engine/trainer.py",
+    "sha256": "110aa651cf3bf2b587bbfd1bd340325a87d58c228faa683a0207e9ce245e1fd9",
+    "bytes": 10511
+  },
+  {
+    "path": "src/pvaug/experiments.py",
+    "sha256": "a183bd5e3d0e5c4f2c14afb507b82b2d1a122a58b724b922391d43869bccdd92",
+    "bytes": 2394
+  },
+  {
+    "path": "src/pvaug/generation.py",
+    "sha256": "b67e65ef7c4d4f5b4b030c547ca956e74671ac3fab169b46916452fe0596b5c9",
+    "bytes": 7443
+  },
+  {
+    "path": "src/pvaug/inference.py",
+    "sha256": "354ec39012624285ecfe93dd583bc727b7fa6ccbe0d400e6c8b353ccbd1e5c69",
+    "bytes": 4644
+  },
+  {
+    "path": "src/pvaug/legacy_cli.py",
+    "sha256": "b42978f0b02b75a607a4cac8397b13166900e1c53fa7fc28273b0ce6f216d693",
+    "bytes": 10573
+  },
+  {
+    "path": "src/pvaug/losses.py",
+    "sha256": "b6eb7b77ca9a59a739f1d966fb472cdae3034d63e3252d8be4971b40c1bb73f2",
+    "bytes": 1178
+  },
+  {
+    "path": "src/pvaug/metrics.py",
+    "sha256": "9ecf8309866503fd64b51a832d9dd84cb4128b36512ee24f64ad3b90d6f2a5cd",
+    "bytes": 1664
+  },
+  {
+    "path": "src/pvaug/models/__init__.py",
+    "sha256": "eebc47c2cd4831305546681d1bd6bff93b02c6d974ff2b9d5d337b5f9336bc86",
+    "bytes": 73
+  },
+  {
+    "path": "src/pvaug/models/backbones.py",
+    "sha256": "07d1ac87ed3c774e1a0ac862e8220c61e7daea1383c3a94985a4ffb3925344ca",
+    "bytes": 2735
+  },
+  {
+    "path": "src/pvaug/models/classifier.py",
+    "sha256": "1a53d26b86c4eb99fbfab0a1c6a295930b5577bc146fe9dc06204d3908b35bff",
+    "bytes": 4428
+  },
+  {
+    "path": "src/pvaug/models/compatibility.py",
+    "sha256": "d949edee2e1397938b8d49dd5d7dc19eabb0b12e100d018cd3d27b9fc752725a",
+    "bytes": 1696
+  },
+  {
+    "path": "src/pvaug/models/edge.py",
+    "sha256": "7b2ea0f21c2c21407b23f64795c45b45b21a9480b6a2ebaa00ea09741279a891",
+    "bytes": 2400
+  },
+  {
+    "path": "src/pvaug/models/fusion.py",
+    "sha256": "cd4dfcafd15f5c34fe83f1192fc9c200020a2f82dfbd060820a77292d99ef93a",
+    "bytes": 1316
+  },
+  {
+    "path": "src/pvaug/models/recovered/__init__.py",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+  },
+  {
+    "path": "src/pvaug/models/recovered/convnext.py",
+    "sha256": "ef545045f4ad9df9890cb96fa9925a7f478ff51eff8ea72c6c6869b5f630cc6f",
+    "bytes": 10401
+  },
+  {
+    "path": "src/pvaug/models/recovered/resnet.py",
+    "sha256": "fd59fc01df15d21300aad4eb99948085d2397a4dc98fd595fe1862e3d2782cbc",
+    "bytes": 19530
+  },
+  {
+    "path": "src/pvaug/models/sketch_ldm.py",
+    "sha256": "dcfb68eee91d6fdfe68989e1542ebac5945fb1fa237f3096835f0fed1d3cbd66",
+    "bytes": 9296
+  },
+  {
+    "path": "src/pvaug/orchestration/__init__.py",
+    "sha256": "1f0806a4377412286f7c8db0f969f170152bd396406cf5eef9fd30344cd18d0c",
+    "bytes": 71
+  },
+  {
+    "path": "src/pvaug/orchestration/artifacts.py",
+    "sha256": "2a12fd9a4fa250c7bdef68d7026d5a1dc4c2f94fc020301716a4af41064d12bb",
+    "bytes": 1582
+  },
+  {
+    "path": "src/pvaug/orchestration/pipeline.py",
+    "sha256": "169f81519d8ac9e6d4f4fe471ed87c59376fbc5f4b36fc5ab4ae3628dd0b1696",
+    "bytes": 11733
+  },
+  {
+    "path": "src/pvaug/orchestration/sweep.py",
+    "sha256": "360b3bf3092ba23fd93ab303eba639bfedf4aad23a645b909d8075ae834c10ca",
+    "bytes": 7544
+  },
+  {
+    "path": "src/pvaug/registry.py",
+    "sha256": "217e69cf01cb68383a6be8e683bb07798abaa350d780a194b36b29bc5ed5aaa0",
+    "bytes": 959
+  },
+  {
+    "path": "src/pvaug/tasks/__init__.py",
+    "sha256": "88414d696a1b440c202d8599f0f243724ddc7729bace7f0a155077b4bcb22179",
+    "bytes": 219
+  },
+  {
+    "path": "src/pvaug/tasks/base.py",
+    "sha256": "6359b0493bb22e17483d9d02a2a98b95fa62136adafcd45deef667d81dc80266",
+    "bytes": 411
+  },
+  {
+    "path": "src/pvaug/tasks/classification.py",
+    "sha256": "6cde1ca8758698fd8fc4ad8814746a5706f0a956dbc6475dc58200a72fdc3626",
+    "bytes": 1719
+  },
+  {
+    "path": "src/pvaug/tasks/generation.py",
+    "sha256": "de9b2765ba919ffa8b9f0f182510315706030edd9ac6e77ed5df776748884c1d",
+    "bytes": 1224
+  },
+  {
+    "path": "src/pvaug/train.py",
+    "sha256": "44db101669b1c6c4b707c851a7258c2416d6974f13cca22ff3118bbc2ae6aae3",
+    "bytes": 9405
+  },
+  {
+    "path": "src/pvaug/utils.py",
+    "sha256": "0ca416a0632a934cb9e7d60809de65817107a58ad40a400af4bbd1f89fef80b2",
+    "bytes": 3645
+  },
+  {
+    "path": "src/pvaug/vendor/__init__.py",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+  },
+  {
+    "path": "src/pvaug/vendor/ldm/__init__.py",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+  },
+  {
+    "path": "src/pvaug/vendor/ldm/modules/__init__.py",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+  },
+  {
+    "path": "src/pvaug/vendor/ldm/modules/attention.py",
+    "sha256": "aa38183c97dc452d25492aa053f7ea569a1d4c6443f0ec1d0e553f67b69fef25",
+    "bytes": 8544
+  },
+  {
+    "path": "src/pvaug/vendor/ldm/modules/diffusionmodules/__init__.py",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+  },
+  {
+    "path": "src/pvaug/vendor/ldm/modules/diffusionmodules/model.py",
+    "sha256": "ab5a84dd2da57d3ba25b8cb5181755ab16250dc7e7e909758e28cc12d767b559",
+    "bytes": 33435
+  },
+  {
+    "path": "src/pvaug/vendor/ldm/modules/diffusionmodules/openaimodel.py",
+    "sha256": "c09d22942632f70d9ce69c3ff3dd09252ff19f0acf45aeb37603bb639d5347d3",
+    "bytes": 34979
+  },
+  {
+    "path": "src/pvaug/vendor/ldm/modules/diffusionmodules/util.py",
+    "sha256": "f616905385762f45b2eac9fdf7023c706c4e1e81cdcba7725212fb19b72940fa",
+    "bytes": 9574
+  },
+  {
+    "path": "src/pvaug/vendor/ldm/util.py",
+    "sha256": "5ed0d2cf71ecb6e8c2b8db0d275e11a9767d937bbcc745d754b36593d11eed05",
+    "bytes": 5857
+  },
+  {
+    "path": "src/pvaug/vendor/quantize.py",
+    "sha256": "9959e933ad30fbab17d2a696e330edbc48d8d839abcc3fc5f46ff03f4853e059",
+    "bytes": 18467
+  },
+  {
+    "path": "tests/conftest.py",
+    "sha256": "ac623a2fe5859c94a1a1b8108aab9b1d43138d43938cf1788b12d139612f0e24",
+    "bytes": 78
+  },
+  {
+    "path": "tests/test_checkpoint.py",
+    "sha256": "2778586b2ed1062244b925e6db4f09e82d5cf00ddd86289f72806895d6901310",
+    "bytes": 1093
+  },
+  {
+    "path": "tests/test_components.py",
+    "sha256": "e5d0dc375029a5aed1256e5bee79fc43df80780a3ab477668cd16045d9e76773",
+    "bytes": 1816
+  },
+  {
+    "path": "tests/test_configuration.py",
+    "sha256": "a46501584ca630810e2f96f79b5296b6b3016cac0f737bf7718110b53d993a42",
+    "bytes": 2910
+  },
+  {
+    "path": "tests/test_data.py",
+    "sha256": "f28d89be2d9ed71fd4792a32718694d523698e94f5e647ec8cf7ae1f15ab4719",
+    "bytes": 3239
+  },
+  {
+    "path": "tests/test_engine.py",
+    "sha256": "59ec8d8cb8462501605fb8d235525cff291821dcaae0eeb0e37d2fc9cd7282e3",
+    "bytes": 3904
+  },
+  {
+    "path": "tests/test_generation.py",
+    "sha256": "f50d1bd8887d8c5081556e2e2c8cbfe89c1263333f7cc778798ffe4840bcacb3",
+    "bytes": 3458
+  },
+  {
+    "path": "tests/test_methods.py",
+    "sha256": "bf6fa7868414329d517730cf3e05820bc1663dd48ec5f82f0d919c19db10b6f0",
+    "bytes": 7017
+  },
+  {
+    "path": "tests/test_orchestration.py",
+    "sha256": "8dc1fb702df03cd62bc82d4b0c1be7d46d2f92585c72901c4588b4b617c8b9a8",
+    "bytes": 5721
+  },
+  {
+    "path": "tests/test_resume.py",
+    "sha256": "f8e921946c10d9ccc58e2f68302ace05b7b4bf3555b934c736ca3c2e00fc3140",
+    "bytes": 1433
+  },
+  {
+    "path": "tests/test_task_state.py",
+    "sha256": "624d4708b4f22b58b5aaeb25ad5902b5fb9c60a5ce30c1bbc2185bf1fdab9bb7",
+    "bytes": 2902
+  },
+  {
+    "path": "third_party/CompVis-LDM-LICENSE",
+    "sha256": "2ba3d36721ed0263cbc1050936ba34809d296fe629d802f7bc453007faefbdb3",
+    "bytes": 1102
+  },
+  {
+    "path": "third_party/NOTICE.md",
+    "sha256": "fbb807032a1255fd143bea9641031fa971a9cf9ca8c05ab99fdb9d99b649cb9f",
+    "bytes": 1742
+  },
+  {
+    "path": "third_party/Taming-Transformers-LICENSE",
+    "sha256": "f6216cce912c447025b8aacfa9ac09634c43815cd8d87762528300e5ddf6b959",
+    "bytes": 1093
+  }
+]

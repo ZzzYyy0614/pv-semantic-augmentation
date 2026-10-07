@@ -1,0 +1,7 @@
+defaults: [../base/classification.yaml]
+data:
+  generated_manifest: runs/paper/synthetic/generated.csv
+semantic:
+  teacher: runs/paper/estimator/best.pt
+experiment:
+  output: runs/recognizer

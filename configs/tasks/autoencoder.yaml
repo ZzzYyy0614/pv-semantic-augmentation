@@ -1,0 +1,9 @@
+defaults: [../base/diffusion.yaml]
+task: autoencoder
+model:
+  first_stage:
+    first_stage_checkpoint: null
+optimizer:
+  lr: 0.0001
+experiment:
+  output: runs/autoencoder

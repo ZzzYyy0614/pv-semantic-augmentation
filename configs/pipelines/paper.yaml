@@ -1,0 +1,35 @@
+schema_version: 1
+name: semantic-aware-edge-augmentation
+output: runs/paper
+stages:
+  - id: estimator
+    kind: classification
+    config: ../tasks/estimator.yaml
+  - id: generator
+    kind: diffusion
+    config: ../tasks/sketch_ldm.yaml
+  - id: synthetic
+    kind: sampling
+    inputs:
+      checkpoint: '@generator.checkpoint'
+      sketches: data/sketches.csv
+    options:
+      per_class: 200
+      steps: 50
+      seed: 42
+      device: auto
+  - id: recognizer
+    kind: classification
+    config: ../tasks/recognizer.yaml
+    inputs:
+      teacher: '@estimator.checkpoint'
+      generated_manifest: '@synthetic.manifest'
+  - id: evaluation
+    kind: evaluation
+    inputs:
+      checkpoint: '@recognizer.checkpoint'
+      manifest: data/real.csv
+    options:
+      split: test
+      device: auto
+      batch_size: 24

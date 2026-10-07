@@ -1,0 +1,8 @@
+{
+  "manifest": "data/real.csv", "output": "runs/sketch_ldm",
+  "classes": ["micro_crack", "busbar_corrosion", "break", "black_core"],
+  "first_stage_checkpoint": "weights/vqvae.ckpt",
+  "image_size": 256, "batch_size": 4, "lr": 0.000001, "epochs": 200,
+  "timesteps": 1000, "cross_attention": true, "loss_type": "l2",
+  "gradient_checkpointing": true
+}

@@ -1,0 +1,4 @@
+{
+  "manifest": "data/real.csv", "output": "runs/convnext_paper",
+  "model": {"backbone": "convnext_tiny", "variant": "paper", "fusion": true, "edge_prior": true}
+}

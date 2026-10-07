@@ -1,0 +1,54 @@
+schema_version: 2
+task: diffusion
+data:
+  manifest: data/real.csv
+  classes: [micro_crack, busbar_corrosion, break, black_core]
+  image_size: 256
+model:
+  first_stage:
+    first_stage_checkpoint: weights/vqvae.ckpt
+    smoke_random_first_stage: false
+    first_stage_channels: 128
+    first_stage_mult: [1, 2, 4]
+    first_stage_res_blocks: 2
+    latent_channels: 3
+    n_embed: 256
+    scale_factor: 1.0
+  denoiser:
+    model_channels: 256
+    channel_mult: [1, 2, 3, 4]
+    num_res_blocks: 2
+    num_heads: 8
+    attention_resolutions: [8, 4, 2]
+    gradient_checkpointing: false
+  conditioning:
+    cross_attention: true
+    cross_attention_dim: 512
+  diffusion:
+    timesteps: 1000
+    beta_schedule: scaled_linear
+    beta_start: 0.0015
+    beta_end: 0.0205
+    loss_type: l2
+    ema_decay: 0.9999
+  initialization:
+    initialize: null
+optimizer:
+  name: adam
+  lr: 0.000001
+  weight_decay: 0.0
+  schedule: constant
+trainer:
+  epochs: 200
+  batch_size: 4
+  workers: 0
+  device: auto
+  max_steps: null
+  engine:
+    precision: fp32
+    accumulation_steps: 1
+    clip_grad_norm: null
+    checkpoint_every: 1
+experiment:
+  output: runs/sketch_ldm
+  seed: 42

@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the paper."
+title: "Semantic-aware data augmentation with edge priors for PV module defect recognition using EL images"
+type: software
+version: 0.2.0
+authors:
+  - family-names: Zhu
+    given-names: Yu
+  - family-names: Cao
+    given-names: Yuan
+  - family-names: Wu
+    given-names: Yuxuan
+  - family-names: Yang
+    given-names: Qiang
+preferred-citation:
+  type: article
+  title: "Semantic-aware data augmentation with edge priors for PV module defect recognition using EL images"
+  authors:
+    - family-names: Zhu
+      given-names: Yu
+    - family-names: Cao
+      given-names: Yuan
+    - family-names: Wu
+      given-names: Yuxuan
+    - family-names: Yang
+      given-names: Qiang
+  journal: Solar Energy
+  volume: '305'
+  start: '114269'
+  year: 2026
+  doi: 10.1016/j.solener.2025.114269
