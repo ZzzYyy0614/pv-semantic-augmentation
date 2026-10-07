@@ -1,4 +1,4 @@
-# PV-Semantic-Edge
+# PV-Semantic-Augmentation
 
 Code for **Semantic-aware data augmentation with edge priors for PV module defect recognition using EL images**.
 
